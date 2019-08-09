@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: thistle;
+}
+
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+input {
+    padding-bottom: 1px;
+}
+input :focus{
+    padding: 1px;
+}
+
+h1 {
+    text-align: center;
+};
+
+#new-todo-item {
+    cursor: pointer;
+};
+
+p {
+    text-align: center;
+    color: aqua;
+}
+
+button{
+    border-radius: 10px;
+    color:black;
+    background-color: transparent;
+}
+
+.new-todo-item{
+    text-align: center;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+}
